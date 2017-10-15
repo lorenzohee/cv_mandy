@@ -25,6 +25,11 @@
     color: white;
     height: 100%;
 }
+@media screen and (max-width: 720px){
+    .main .resume_info{
+        width: 100%;
+    }
+}
 .main .resume_info .resume_avatar{
     text-align: center;
     padding: 20px 0;
@@ -54,7 +59,7 @@
 .resume_link:nth-child(2){
 	margin-left: -6px;
 	margin-right: -6px;
-	width: 35%;
+	width: 34%;
 }
 .resume_link:nth-child(3){
 	border-right: none;
